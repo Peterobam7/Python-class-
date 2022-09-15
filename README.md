@@ -1,7 +1,3 @@
-# Schoolproj
-school work
+# Python - class
 
-my practice work
-
-how far
-PRINT ME
+print("Hello")
