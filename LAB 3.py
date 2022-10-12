@@ -25,7 +25,7 @@ for i in range(n_):
     list_ = list(range(1,i +2))
     print(*list_, sep= '')
 
-        #OR
+        #Или
 n_ = int(input('введите натуральное число'))
 for i in range(n_):
     
