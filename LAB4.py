@@ -7,26 +7,40 @@ print(even)
 #ЗАД 2
 
 d_= [2,0,3,5,6,3,2,4,88,9]
-
 s = 0
-
 list_= []
-
 for i  in d_:
 
     if i>s: 
+
         list_.append(i)
 
         s=i
 
-        
 
     else:
 
         s=i
 
         continue 
+
 print (list_[1:])
+
+    
+
+    
+       
+
+
+
+        
+
+   
+
+       
+
+        
+
     
 
 
