@@ -8,23 +8,29 @@ print(even)
 
 d_= [2,0,3,5,6,3,2,4,88,9]
 s = 0
-list_= []
-for i  in d_:
+new_list_= []
 
-    if i>s: 
+def list_(x);
+      new_list= []
+      for i  in x:
 
-        list_.append(i)
+             if i>=s: 
 
-        s=i
+                   new_list.append(i)
+
+                   s=i
 
 
-    else:
+             else:
 
-        s=i
+                 s=i
 
-        continue 
+                 continue 
+        return new_list[1:]
 
-print (list_[1:])
+print (list_(d_))
+
+#ЗАД 3
 
     
 
