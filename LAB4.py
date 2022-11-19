@@ -27,7 +27,21 @@ print(list_(d_))
 
 #ЗАД 3
 
+A = [3,6,0,7,10,5,6,9]
+
+def swap_min_max(A):
+    x = max(A)
+    y = min(A)
+    A[A.index(x)] = y
+    A[A.index(y)] = x
     
+    print (A)
+    
+    
+swap_min_max(A)
+
+#ЗАД 4
+
 
     
        
