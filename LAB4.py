@@ -42,7 +42,14 @@ swap_min_max(A)
 
 #ЗАД 4
 
+def keys_(a,y):
+     print(a[y])
+    
 
+a = {'a':'HELLO', 'b': 'WORLD'}
+keys_(a,'b')
+
+#ЗАД 5
     
        
 
