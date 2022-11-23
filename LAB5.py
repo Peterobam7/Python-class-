@@ -5,7 +5,7 @@ class Rocket:
         self.mass = mass
         self.fuel = fuel
         self.bool = bool
-       
+        self.mass = mass + fuel 
     #Расход топлива и определение если оно осталось после расхода
     def spend_fuel(self, count): 
         
